@@ -9,10 +9,7 @@ body {
  
 #header {
   background: #f5f5f5;
-  border: double black;
-  
-  
-    
+   display:flex;
 }
 #facts {
 	border: double grey;
@@ -20,8 +17,6 @@ body {
 	 height: 20%;
 }
 	
-
-
 #navigation {
       background: #343a40;
       width: 100%;
@@ -65,10 +60,10 @@ body {
 .mypoint {
     list-style: none;
 }
-.mypoint li::before {
-    content: "\2022";
+.mypoint li::before {  
     color: #00ace4;
     margin-left: 10px;
-    display: inline-block;
+    display: block;
     width: 20px;
+  
 }
