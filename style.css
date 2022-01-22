@@ -9,6 +9,7 @@ body {
  
 #header {
   background: #f5f5f5;
+  border: double black;
    display:flex;
 }
 #facts {
