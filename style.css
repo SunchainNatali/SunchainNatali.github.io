@@ -23,15 +23,18 @@ body {
 
 
 #navigation {
-      background: #FAEBD7;
-  border: dotted black;
+      background: #343a40;
       width: 100%;
-			height: 60px;
+      height: 70px;
+  
 			
 }
 #navigation li {
-			display: inline;
+  
+  color: white;
+  display: inline;
   border: double black;
+    
 }
 
 #menu {
