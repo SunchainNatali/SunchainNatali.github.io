@@ -14,15 +14,15 @@
    <header>
     <div class="logo">
         <a href="index.html">
-          <span class="use">Интересные</span>-<span class="web">Факты</span> 
+          <span class="use">MISTERIOUS</span>-<span class="web">facts</span> 
         </a>       
        </div>  
        <div class="top-menu">
          <ul>
-             <li><a class="clickMenu" href="index2.html">Новости</a></li>
-             <li><a href="#">Статьи</a></li>
-             <li><a href="#">Видео</a></li>
-             <li><a href="#">Главная</a></li>
+          <li><a class="clickMenu" href="index2.html">Новости</a></li>
+          <li><a href="index3.html">Статьи</a></li>
+          <li><a href="#">Видео</a></li>
+          <li><a href="index.html">Главная</a></li>
          </ul>  
        </div> 
    
@@ -35,7 +35,7 @@
   </label>
   <ul class="menu__box">
     <li><a class="menu__item" href="index2.html">Новости</a></li>
-    <li><a class="menu__item" href="#">Статьи</a></li>
+    <li><a class="menu__item" href="index3.html">Статьи</a></li>
     <li><a class="menu__item" href="#">Видео</a></li>
     <li><a class="menu__item" href="index.html">Главная</a></li>
   </ul>
@@ -61,7 +61,7 @@
        Билли Грэм. Звезды не откроют нам наше будущее...
     </p>
     </h1>
-      <p><img src="img/i.jpg"  width="400" height="300" class="fig2" >
+      <p><img src="img/i.jpg"  width="400" height="300" class="fig" >
         Билли Грэм, всемирно известный евангелист, которого часто называют «пастором Америки» и «пастором для президентов», 
         отвечая на вопрос читателей, заявил, что Бог создал звезды не для того, чтобы они руководили нашим будущим. 
         Вопрос был задан читательницей, чья подруга утверждала, что раз Бог создал звезды, то мы должны искать водительства 
@@ -105,4 +105,20 @@
 </div>
   
 </body>
+<SCRIPT LANGUAGE="JavaScript">
+  
+  var position = 0;
+  function scroller() {
+    if (position != 300)
+       {position++;
+        scroll(0,position);
+        clearTimeout(timer);
+        var timer = setTimeout("scroller()",3); timer;
+       }
+    else
+       {location.replace("#"); }
+  }
+  
+  </SCRIPT>
+  <BODY onload="scroller()">
 </html>
