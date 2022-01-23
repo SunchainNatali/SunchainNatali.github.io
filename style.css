@@ -251,10 +251,8 @@ IMG.fig {
   padding-bottom: 7px; /* Отступ снизу */
  }
 
- IMG.fig2 {
-  float: right; /* Обтекание картинки по левому краю */
-  padding-left: 10px; /* Отступ слева */
-  padding-bottom: 7px; /* Отступ снизу */
+ iframe.fig2 {
+ position: center;
  }
  body {
 	margin: 0;
