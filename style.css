@@ -1,12 +1,3 @@
-
-
-
-#facts {
-	 border: double grey;
-	 width: 100%;
-	 height: 20%;
-}
-	
 #navigation {
       background: #343a40;
       width: 100%;
@@ -32,8 +23,7 @@
 }
  
 #content {
-  background: lightgrey ;
-  border: double black;
+  background: white ;
   float: right;
 	width: 60%;
 }
