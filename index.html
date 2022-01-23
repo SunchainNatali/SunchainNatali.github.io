@@ -14,18 +14,17 @@
    <header>
     <div class="logo">
         <a href="index.html">
-          <span class="use">Интересные</span>-<span class="web">Факты</span> 
+          <span class="use">MISTERIOUS</span>-<span class="web">facts</span> 
         </a>       
        </div>  
        <div class="top-menu">
          <ul>
              <li><a class="clickMenu" href="index2.html">Новости</a></li>
-             <li><a href="#">Статьи</a></li>
+             <li><a href="index3.html">Статьи</a></li>
              <li><a href="#">Видео</a></li>
-             <li><a href="#">Главная</a></li>
+             <li><a href="index.html">Главная</a></li>
          </ul>  
-       </div> 
-   
+       </div>    
     </header>
       <div id="block-content">
           <div class="hamburger-menu">
@@ -35,29 +34,50 @@
   </label>
   <ul class="menu__box">
     <li><a class="menu__item" href="index2.html">Новости</a></li>
-    <li><a class="menu__item" href="#">Статьи</a></li>
+    <li><a class="menu__item" href="index3.html">Статьи</a></li>
     <li><a class="menu__item" href="#">Видео</a></li>
     <li><a class="menu__item" href="index.html">Главная</a></li>
   </ul>
 </div>
+<div class="smoke">
+  <ul>
+    <li>W</li>
+    <li>E</li>
+    <li>L</li>
+    <li>C</li>
+    <li>O</li>
+    <li>M</li>
+    <li>E</li>
+  </ul>
+</div>
       <div id="menu">
-  <h2>Меню</h2>
-  <ul class="mypoint">  
-    <li><a href="index2.html">Новости</a></li>
-    <br>
-    <li><a href="#t2">Статьи</a></li>
-    <br>
-    <li><a href="#t3">Списки</a></li>
-    <br>
-    <li><a href="#t3">Вложения</a></li>      
-</ul>
+       <br>
+
+
+
+
+
+<div class="button"><span>Статьи</span></div>
+<div class="button"><span>Видео</span></div>
+<div class="button"><span>Новости</span></div>
+
+
+
+
+
+
         </div> 
    <div id="content">
     <br>
-    <h1>Тайны мирового океана и их особенности</h1>
     <br>
-    <img src="img/1502562240.jpg" align="left" width="300" height="200">
-    <p>Об собенностях водной стихии человечество знает очень мало, в процентном количестве изучено всего 3-5% океанских глубин.
+    <h1>
+    <p class="b" onmousedown="this.style.fontStyle='italic'; this.style.color='red'"
+       onmouseup="this.style.fontStyle=''; this.style.color='black'">
+       Тайны мирового океана и их особенности
+    </p>
+    </h1>
+      <p><img src="img/1502562240.jpg"  width="610" height="300" class="fig"  >
+    Об особенностях водной стихии человечество знает очень мало, в процентном количестве изучено всего 3-5% океанских глубин.
     Тайн в мировом океане бесчисленное множество. Их он открывает постепенно и неохотно. Но некоторыми все же согласился поделиться. 
     Эффект, напоминающий подводный водопад, можно наблюдать у берегов полуострова Ле-Морн-Брабан (государство Маврикий). 
     Там проходят мощные течения, создающие завихрения песка и ила, переносимые водой по неровному дну, усеянному кораллами.
@@ -65,9 +85,8 @@
     уже сотни лет замечали, что там в определенных местах вода имеет голубое сияние. Этот феномен завораживал всех моряков. 
     Только недавно, в 2005 году была разгадана тайна свечения. Эффект сияющего молока придают водам бактерии, обладающие биолюминесцентными свойствами. 
     Они «зажигаются» для приманивания морских обитателей.
-</p>
-    <p>
-В штате Орегон на океаническом побережье существует загадочная воронка, ее называют «вратами в подземный мир». 
+    <br>
+      В штате Орегон на океаническом побережье существует загадочная воронка, ее называют «вратами в подземный мир». 
       Во время приливов в падину заливается вода, и, достигнув дна, выплескивается на высоту 6 метров.
       Как появился «колодец», ученые до сих пор не знают, никто еще не опускался в него.
       Предположительно, что воронка связана с подводными океаническими пещерами. Иногда в сезон дождей,
@@ -89,30 +108,34 @@
       Дайверам иногда удается столкнуться с таким подводным существом как огнетелки, или по-научному, пиросомы. 
       Это скопление множества мелких существ, которые, соединяясь, могут достичь размеров кита.
     </p>
-</div>     
-        
-        
+</div>            
   </div>
 <br>
-
-
   </div>
-
-
-  
-<div id="clear"></div>
-    
+<div id="clear"></div>   
     <footer class=cellar>
         <div id=spacer></div>
-        <div class=block>
+        <div class=block align="center" >
              © Created by:  Nataly Nikulina
             </div>
-    </footer>
-  
-  
+    </footer> 
 </div>
-  
 </body>
+<SCRIPT LANGUAGE="JavaScript">
+  
+  var position = 0;
+  function scroller() {
+    if (position != 600)
+       {position++;
+        scroll(0,position);
+        clearTimeout(timer);
+        var timer = setTimeout("scroller()",3); timer;
+       }
+    else
+       {location.replace("#"); }
+  } 
+  </SCRIPT>
+  <BODY onload="scroller()">
 </html>
 
 
