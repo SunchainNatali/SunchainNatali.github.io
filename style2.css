@@ -587,7 +587,7 @@ html, body, .wrapper {
   }
 }
 @keyframes bounceUpDown {
-  0, 100% {
+   100% {
     transform: translateY(0);
   }
   50% {
