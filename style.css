@@ -575,7 +575,7 @@ to align it properly */
 }
 
 .idle {
-  animation: idle 5s linear infinite;
+  animation: idle 3s linear infinite;
   animation-delay: -1.5s;
 }
 
@@ -594,7 +594,7 @@ to align it properly */
 }
 
 .knock {
-  animation: knock 5s linear infinite;
+  animation: knock 3s linear infinite;
   animation-delay: -1.5s;
 }
 
